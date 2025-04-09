@@ -83,6 +83,10 @@ class App extends Component {
     }
     this.setEditorContent();
     this.setCustomImageHosting();
+
+    window.renderMarkdownToHtml = function(content, codeNum) {
+      return codeNum === 0 ? markdownParserWechat.render(content) : markdownParser.render(content);
+    };
   }
 
   componentDidUpdate() {

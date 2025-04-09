@@ -1,5 +1,18 @@
 <h1 align="center">Markdown Nice</h1>
 
+## 运行方式
+
+```bash
+# node 14.0.0 nvm
+nvm use 14.0.0
+# 安装依赖
+yarn install
+# 启动服务
+yarn run start
+# 编译脚本
+yarn run build
+```
+
 ## 简介
 
 本项目基于 [markdown-nice](https://github.com/mdnice/markdown-nice) 进行二次开发，再次对原项目所有贡献者表示感谢🙏
